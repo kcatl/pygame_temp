@@ -1,0 +1,14 @@
+this is my first commit on Github.
+I will push all my python code on Github to confirm my python_code
+if you want to connect to me , please email me : hacphoenix@163.com
+	GIT REMOTE ADD PYTHON SSH_url
+	Create a new repository on the command line
+	touch README.md
+	git init
+	git add README.md
+	git commit -m "first commit"
+	git remote add origin git@github.com:alleria0218/python.git
+	git push -u origin master
+	Push an existing repository from the command line
+	git remote add origin git@github.com:alleria0218/python.git
+	git push -u origin master
