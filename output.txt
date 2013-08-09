@@ -1,0 +1,7 @@
+hello stream world
+Enter an number--->1 squared number is 1
+Enter an number--->2 squared number is 4
+Enter an number--->3 squared number is 9
+Enter an number--->4 squared number is 16
+Enter an number--->5 squared number is 25
+Enter an number--->Bye!
