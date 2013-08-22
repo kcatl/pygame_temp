@@ -1,0 +1,34 @@
+<html>
+<title> Using Echo()</title>
+	<body>
+	<?php
+	$firstname='tom';
+	$today=20130411;
+	$province='shandong';
+	$city='yantai';
+	$comb=$province.$city;
+	$comb1=$province. ",".$city;
+	$num=strlen($city);
+	$file=$_SERVER['PHP_SELF'];
+	$user=$_SERVER['HTTP_USER_AGENT'];
+	$address=$_SERVER['REMOTE_ADDR'];
+echo $num;
+	echo $comb;
+	echo $comb1;
+	echo $firstname;
+	echo $today;
+	echo 'hello world!';
+	print "hello, world";
+	echo "hello <font size='+2'>world</font>";
+	echo '<b>hello <font size="+2">world</font>!</b>';
+	echo "<br /> this is the line should appear separately in the webpage.\n\n";
+	echo 'i\'m done'; 
+	echo "<p>You are viewing this webpage using :<br /><b>$user</b><br />from the ip address : <br /><b>$address</b><br /></p>\n";
+#hello world
+//this is a comment line ;
+/*hello 
+this is a line 
+comment*/
+	?>
+</body>
+</html>
