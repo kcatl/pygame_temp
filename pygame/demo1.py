@@ -13,6 +13,7 @@ fpsClock = pygame.time.Clock()
 display = pygame.display.set_mode((400,300),0,32)
 pygame.display.set_caption('Animation')
 
+
 white = (255,25,255)
 catImg = pygame.image.load('cat.png')
 catx = 10
